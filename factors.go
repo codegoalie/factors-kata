@@ -1,5 +1,7 @@
-package main
+package factors
 
+// PrimeFactors returns a slice of integers which are the prime factors of the
+// given integer
 func PrimeFactors(x int) []int {
 	factors := []int{}
 
